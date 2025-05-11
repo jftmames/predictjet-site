@@ -56,7 +56,7 @@ elif seccion == "Contacto":
     Escríbenos:
 
     📧 soporte@predictjet.ai  
-    🌐 www.predictjet.ai
+
     """)
 
 # Footer
