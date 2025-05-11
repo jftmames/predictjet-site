@@ -2,7 +2,8 @@ import streamlit as st
 
 st.set_page_config(page_title="PredictJet", layout="wide")
 
-# Menú de navegación funcional\st.sidebar.title("Menú de Navegación")
+# Menú de navegación funcional
+st.sidebar.title("Menú de Navegación")
 seccion = st.sidebar.radio("Ir a:", [
     "Inicio",
     "Producto",
@@ -58,7 +59,8 @@ elif seccion == "Contacto":
     🌐 www.predictjet.ai
     """)
 
-# Footer\st.markdown("""
+# Footer
+st.markdown("""
 ---
-© 2025 PredictJet. Todos los derechos reservados.
+(c) 2025 PredictJet. Todos los derechos reservados.
 """)
